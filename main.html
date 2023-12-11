@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgZone - Main</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/animations.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1 class="logo"><a class="logo2" href="main.html">ProgZone</a></h1>
+        <div id="profileButton" onclick="toggleCategory('guides')">
+            <a href="profile.html">
+                <img src="img/test1.jpg" alt="Profile Picture">
+            </a>
+        </div>
+        <nav class="top">
+            <ul class="categories">
+                <li><a class="discussions" href="discussions.html" onclick="toggleCategory('discussions')">Discussions</a></li>
+                <li><a class="questions" href="questions.html" onclick="toggleCategory('questions')">Questions</a></li>
+                <li><a class="guides" href="guides.html" onclick="toggleCategory('guides')">Guides</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="line"></div>
+
+    <div><h1 style="color: white;">Main Page</h1></div>
+    
+    <footer>
+        <p>&copy; 2023 ProgZone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

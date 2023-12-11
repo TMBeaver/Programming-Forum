@@ -1,0 +1,101 @@
+body {
+    font-family: Inknut Antiqua;
+    margin: 0;
+    padding: 0;
+    background-color:#0a0a0a;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    
+    background-color: rgb(11, 11, 11)414;
+    color: rgb(244, 240, 240)b0b;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: #ffffff;
+    color: #0b0b0b;
+    padding: 5px;
+    height: 0px;
+}
+
+
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+/* .post, .category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    padding-top: 11px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+} */
+
+.profile {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    overflow: hidden; 
+    border-radius: 50%;
+    background-color: rgb(246, 244, 244);
+}
+
+.logo {
+    color: #FFF;
+    text-align: center;
+    text-shadow: -2px 4px 6px rgba(248, 247, 247, 0.25);
+    font-family: Inknut Antiqua;
+    font-size: 40px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discussions {
+    display: flex;
+    width: 154px;
+    height: 30px;
+    padding-top: 11px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #f8f4f4;
+    text-align: center;
+    text-shadow: -4px 2px 3px rgba(249, 247, 247, 0.25);
+    font-family: Inknut Antiqua;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.selected-header {
+    padding-top: 10px;
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    background-color: white;
+    display: inline-block;
+}
+
