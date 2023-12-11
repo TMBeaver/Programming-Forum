@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Upload Image with Java</title>
+<link rel="stylesheet" href="profile.css">
+
+    </head>
+    <body>
+        
+<div class="hero">
+
+<div class="card"> 
+
+    <!--=========NAME=========-->
+    <h1>INSERT NAME</h1> 
+    <p>@InsertedName</p>
+
+    <!--==========NAME==========-->
+
+<img src="Default_pfp.svg.png" id="profile-pic">
+<label for="input-file">update Image</label>
+<input type="file" accept="Image/jpeg, Image/png, Image/jpg" id="input-file">
+</div>
+</div>
+
+
+<script>
+
+let Default_pfp = document.getElementById("profile-pic")
+let inputFile = document.getElementById("input-file")
+
+
+inputFile.onchange = function(){
+    Default_pfp.src=URL.createObjectURL(inputFile.files[0]);
+}
+
+</script>
+
+    </body>
+    </html>
